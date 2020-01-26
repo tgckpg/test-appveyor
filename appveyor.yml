@@ -2,4 +2,4 @@ version: 1.0.{build}
 image: Visual Studio 2019
 install:
   - docker version
-  - docker pull mcr.microsoft.com/powershell:nanoserver-1903
+  - docker pull mcr.microsoft.com/powershell:nanoserver-1803
