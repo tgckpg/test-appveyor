@@ -1,5 +1,5 @@
-version: 4
+version: 1.0.{build}
 image: Visual Studio 2019
 install:
   - docker version
-  - docker run -it --rm mcr.microsoft.com/windows/nanoserver pwsh Write-Host "Hello World"
+  - docker run -it --rm mcr.microsoft.com/windows/nanoserver:1809 pwsh Write-Host "Hello World"
