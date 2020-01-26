@@ -1,0 +1,7 @@
+version: 1
+image: Docker
+install:
+  - docker version
+
+test_script:
+  - docker run -it --rm mcr.microsoft.com/windows/nanoserver:1809 pwsh "Write-Host 'Hello World'"
